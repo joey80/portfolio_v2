@@ -55,7 +55,9 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.esm.js',
+      'globalLess': path.resolve('src/scripts/global/global.less'),
+      'mainJS': path.resolve('src/scripts/main.js')
     },
     extensions: ['*', '.js', '.vue', '.json']
   },

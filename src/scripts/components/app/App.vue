@@ -23,6 +23,6 @@
 </script>
 
 <style lang="less">
-    @import '../../global/_variables.less';
+    @import '~globalLess';
     @import 'styles/app.less';
 </style>

@@ -20,5 +20,6 @@
 </script>
 
 <style lang="less">
-    @import 'styles/hello.less';
+  @import '~globalLess';
+  @import 'styles/hello.less';
 </style>
