@@ -1,6 +1,6 @@
 <template>
   <div>
-      <span class="poop">I'm the hello component</span>
+      <span class="poop">I'm the hello component joey leger</span>
   </div>
 </template>
 
