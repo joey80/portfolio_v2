@@ -1,4 +1,11 @@
-.test {
-    color: @test-color;
-    font-size: 2em;
+.app {
+    &__container {
+        display: flex;
+        height: 100vh;
+        flex-direction: column-reverse;
+
+        @media @tablet {
+            flex-direction: row;
+        }
+    }
 }

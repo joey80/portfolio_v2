@@ -1,17 +1,21 @@
 <template>
-  <div>
-      <span class="test">hello VUE!</span>
-      <hello-div></hello-div>
+  <div class="app__container">
+    <sidebar-div></sidebar-div>
+    <content-div></content-div>
   </div>
 </template>
 
 <script>
   import { eventBus, state } from '../../main';
-  import Hello from '../hello/Hello.vue';
+  import Header from '../header/Header.vue';
+  import Sidebar from '../sidebar/Sidebar.vue';
+  import Content from '../content/Content.vue';
 
   export default {
     components: {
-        helloDiv: Hello,
+      headerDiv: Header,
+      sidebarDiv: Sidebar,
+      contentDiv: Content
     },
     data: function() {
       return {

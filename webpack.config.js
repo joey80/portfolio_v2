@@ -31,7 +31,7 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.(png|jpg|gif|svg)$/,
+        test: /\.(png|jpg|gif|svg|woff(2)?|ttf|eot)$/,
         loader: 'file-loader',
         options: {
           name: '[name].[ext]?[hash]'
@@ -57,7 +57,7 @@ module.exports = {
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       'globalLess': path.resolve('src/scripts/global/main.less'),
-      'mainJS': path.resolve('src/scripts/main.js')
+      'images': path.join(__dirname, 'src/images')
     },
     extensions: ['*', '.js', '.vue', '.json']
   },

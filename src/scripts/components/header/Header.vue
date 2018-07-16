@@ -1,7 +1,7 @@
 <template>
-  <div>
-      <span class="poop">I'm the hello component joey leger</span>
-  </div>
+  <header>
+      <h1>I'm the HEADER component</h1>
+  </header>
 </template>
 
 <script>
@@ -21,5 +21,5 @@
 
 <style lang="less">
   @import '~globalLess';
-  @import 'styles/hello.less';
+  @import 'styles/header.less';
 </style>
