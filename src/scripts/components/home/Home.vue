@@ -1,8 +1,9 @@
 <template>
-  <header>
+  <div class="home">
       <div class="home__message">Hello. My name is <span class="home--stronger">Joey Leger</span><br /> and I am a full-stack developer.</div>
       <div class="home__line"></div>
-  </header>
+      <router-link to="/projects"><div class="btn home__btn">Check Out My Work <font-awesome-icon icon="long-arrow-alt-right" class="home__arrow"/></div></router-link>
+  </div>
 </template>
 
 <script>

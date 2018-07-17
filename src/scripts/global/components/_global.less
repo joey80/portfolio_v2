@@ -48,3 +48,19 @@ h4 {
 small {
     font-size: 0.8em;
 }
+
+.btn {
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    padding: 20px 40px 20px 40px;
+    border: 1px solid fadeout(@sidebar-color, 50%);
+    border-radius: 5px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: fadeout(@primary-color, 20%);
+        border-color: #fff;
+        color: #fff;
+        transition: all 0.3s ease-in-out;
+    }
+}
