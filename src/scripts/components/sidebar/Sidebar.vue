@@ -12,9 +12,10 @@
       <span class="sidebar--stronger">never stop learning new things</span>
     </div>
     <div class="sidebar__social">
-      check out my <span class="sidebar--stronger"><a href='#'>GitHub</a></span><br />
-      connect with me on <span class="sidebar--stronger"><a href='#'>LinkedIn</a></span>
+      check out my <span class="sidebar--stronger"><a href="https://github.com/joey80" target="_blank">GitHub</a></span><br />
+      connect with me on <span class="sidebar--stronger"><a href="https://www.linkedin.com/in/joey-leger-363715a5/" target="_blank">LinkedIn</a></span>
     </div>
+    <div class="sidebar__avatar"></div>
   </div>
 </template>
 

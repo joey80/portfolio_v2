@@ -1,0 +1,36 @@
+// ===========================================
+// Home Styles
+// ===========================================
+
+.home {
+
+    &__message {
+        margin-top: 30px;
+        text-align: right;
+        font-size: 3.5em;
+        line-height: 1.2em;
+    }
+
+    &__avatar {
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 4px solid #fff;
+        background-image: url(~images/me.jpg);
+        background-position: bottom;
+        background-size: contain;
+    }
+
+    &__line {
+        margin-top: 40px;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
+    }
+
+    &--stronger {
+        font-weight: 800;
+        color: @sidebar-color;
+    }
+}
