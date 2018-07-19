@@ -4,11 +4,13 @@
 
 .sidebar {
     flex-basis: 30%;
+    order: 2;
     background-color: @sidebar-color;
     color: #fff;
     padding: 3%;
 
     @media @tablet {
+        order: 1;
         background-image: url(~images/trees.png);
         background-position: bottom;
         background-repeat: no-repeat;
@@ -17,9 +19,29 @@
     }
 
     &__links {
+        position: fixed;
+        width: 100%;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        background-color: @sidebar-color;
+        top: 0;
+        left: 0;
         font-family: 'Coustard', serif;
         font-size: 1.4em;
         font-weight: 300;
+
+        @media @tablet {
+            position: static;
+            text-align: left;
+            padding: 0;
+            font-size: 1.2em;
+            width: initial;
+            background-color: transparent;
+        }
+
+        @media @desktop {
+            font-size: 1.4em;
+        }
     }
 
     &__quote {
@@ -27,6 +49,16 @@
         font-style: italic;
         font-weight: 300;
         font-size: 1.1em;
+
+        @media @tablet {
+            margin-top: 20px;
+            font-size: 0.8em;
+        }
+
+        @media @desktop {
+            margin-top: 30px;
+            font-size: 1.1em;
+        }
     }
 
     &__social {
@@ -34,6 +66,16 @@
         font-weight: 300;
         font-size: 1.3em;
         text-transform: capitalize;
+
+        @media @tablet {
+            margin-top: 30px;
+            font-size: 0.8em;
+        }
+
+        @media @desktop {
+            margin-top: 60px;
+            font-size: 1.3em;
+        }
     }
 
     &__avatar {
@@ -46,6 +88,18 @@
         background-position: bottom;
         background-size: contain;
         box-shadow: 0px 30px 18px 0px rgba(0, 0, 0, 0.3);
+
+        @media @tablet {
+            margin-top: 60px;
+            width: 175px;
+            height: 175px;
+        }
+
+        @media @desktop {
+            margin-top: 60px;
+            width: 300px;
+            height: 300px;
+        }
     }
 
     &--stronger {
@@ -61,6 +115,14 @@
     & ul li {
         display: inline-block;
         padding-right: 6%;
+
+        @media @tablet {
+            display: block;
+        }
+
+        @media @desktop {
+            display: inline-block;
+        }
     }
 
     a:link {

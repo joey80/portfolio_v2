@@ -12,6 +12,14 @@
         text-align: right;
         font-size: 3.5em;
         line-height: 1.2em;
+
+        @media @tablet {
+            font-size: 2.5em;
+        }
+
+        @media @desktop {
+            font-size: 3.5em;
+        }
     }
 
     &__line {
@@ -29,6 +37,14 @@
         text-transform: uppercase;
         color: #000;
         transform: translateX(-10px);
+
+        @media @tablet {
+            font-size: 0.8em;
+        }
+
+        @media @desktop {
+            font-size: 1em;
+        }
 
         &:hover {
             transform: translateX(0);
