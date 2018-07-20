@@ -10,7 +10,7 @@
     &__message {
         margin-top: 30px;
         text-align: right;
-        font-size: 3.5em;
+        font-size: 1.8em;
         line-height: 1.2em;
 
         @media @tablet {
@@ -32,7 +32,7 @@
 
     &__btn {
         margin-top: 30px;
-        font-size: 1em;
+        font-size: 0.8em;
         font-weight: 600;
         text-transform: uppercase;
         color: #000;
@@ -54,6 +54,17 @@
     &__arrow {
         transform: scale(1.5);
         margin-left: 20px;
+    }
+
+    &__image {
+        margin: 100px auto 80px auto;
+        border-radius: 7px;
+        max-width: 100%;
+
+        @media @tablet {
+            margin: 100px 0 80px 0;
+            max-width: 70%;
+        }
     }
 
     &--stronger {
