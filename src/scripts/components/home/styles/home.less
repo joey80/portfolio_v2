@@ -56,8 +56,37 @@
         margin-left: 20px;
     }
 
+    &__skills {
+        margin-top: 100px;
+        text-align: right;
+        line-height: 2.5;
+
+        @media @desktop {
+            max-width: 80%;
+        }
+
+        &--larger {
+            font-size: 1em;
+
+            @media @tablet {
+                font-size: 1.2em;
+            }
+        }
+
+        &--highlight {
+            display: inline-block;
+            background-color: fadeout(@sidebar-color, 85%);
+            padding: 0 5px 0 5px;
+            border-radius: 7px;
+
+            @media @tablet {
+                padding: 0 5px 0 5px;
+            }
+        }
+    }
+
     &__image {
-        margin: 100px auto 80px auto;
+        margin: 60px auto 80px auto;
         border-radius: 7px;
         max-width: 100%;
 

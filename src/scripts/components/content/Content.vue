@@ -32,6 +32,7 @@
 
   .slide-enter-active {
     backface-visibility: hidden;
+    transform: translateZ(0);
     animation: slide-in-blurred-right 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) forwards;
   }
 
