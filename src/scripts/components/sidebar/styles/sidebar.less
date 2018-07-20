@@ -6,14 +6,14 @@
     flex-basis: 30%;
     order: 2;
     background-color: @sidebar-color;
+    background-image: url(~images/trees.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 3%;
 
     @media @tablet {
         order: 1;
-        background-image: url(~images/trees.png);
-        background-position: bottom;
-        background-repeat: no-repeat;
         max-width: 30%;
         min-width: 30%;
     }
@@ -60,13 +60,15 @@
     }
 
     &__social {
-        margin-top: 60px;
+        margin-top: 20px;
         font-weight: 300;
         font-size: 1.3em;
+        color: @sidebar-color;
         text-transform: capitalize;
         text-align: center;
 
         @media @tablet {
+            color: #fff;
             margin-top: 30px;
             font-size: 0.8em;
         }
@@ -94,6 +96,7 @@
         }
 
         @media @desktop {
+            margin-top: 80px;
             width: 300px;
             height: 300px;
         }
