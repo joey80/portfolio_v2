@@ -7,13 +7,11 @@
 
 <script>
   import { eventBus, state } from '../../main';
-  import Header from '../header/Header.vue';
   import Sidebar from '../sidebar/Sidebar.vue';
   import Content from '../content/Content.vue';
 
   export default {
     components: {
-      headerDiv: Header,
       sidebarDiv: Sidebar,
       contentDiv: Content
     },
