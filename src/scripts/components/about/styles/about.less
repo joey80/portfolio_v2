@@ -1,0 +1,41 @@
+// ===========================================
+// About Styles
+// ===========================================
+
+.about {
+    text-align: left;
+
+    @media @tablet {
+        text-align: right;
+    }
+
+    &__title {
+        font-size: 2em;
+    }
+
+    &__line {
+        margin-top: 40px;
+        width: 100%;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
+
+        @media @tablet {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
+        }
+    }
+
+    &__message {
+        margin-top: 40px;
+        font-size: 0.8em;
+        line-height: 2.5;
+
+        @media @tablet {
+            font-size: 1em;
+        }
+
+        @media @desktop {
+            font-size: 1.3em;
+        }
+    }
+}

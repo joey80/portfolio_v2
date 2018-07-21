@@ -8,7 +8,6 @@
     align-items: flex-end;
 
     &__message {
-        margin-top: 30px;
         text-align: right;
         font-size: 1.8em;
         line-height: 1.5em;
@@ -59,9 +58,13 @@
 
     &__skills {
         margin-top: 40px;
-        text-align: right;
+        text-align: left;
         line-height: 2.5;
-        font-size: 0.7em;
+        font-size: 0.8em;
+
+        @media @tablet {
+            text-align: right;
+        }
 
         @media @desktop {
             max-width: 80%;
