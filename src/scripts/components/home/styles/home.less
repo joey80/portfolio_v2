@@ -11,9 +11,10 @@
         margin-top: 30px;
         text-align: right;
         font-size: 1.8em;
-        line-height: 1.2em;
+        line-height: 1.5em;
 
         @media @tablet {
+            line-height: 1.2em;
             font-size: 2.5em;
         }
 
@@ -57,16 +58,18 @@
     }
 
     &__skills {
-        margin-top: 100px;
+        margin-top: 40px;
         text-align: right;
         line-height: 2.5;
+        font-size: 0.7em;
 
         @media @desktop {
             max-width: 80%;
+            font-size: 1em;
         }
 
         &--larger {
-            font-size: 1em;
+            font-size: 1.1em;
 
             @media @tablet {
                 font-size: 1.2em;
@@ -74,13 +77,12 @@
         }
 
         &--highlight {
-            display: inline-block;
             background-color: fadeout(@sidebar-color, 85%);
-            padding: 0 5px 0 5px;
+            padding: 5px;
             border-radius: 7px;
 
             @media @tablet {
-                padding: 0 5px 0 5px;
+                padding: 4px;
             }
         }
     }

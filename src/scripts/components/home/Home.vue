@@ -5,11 +5,11 @@
           my name is <span class="home--stronger">Joey Leger</span><br />
           and I'm a full-stack developer.
       </div>
-      <div class="home__line"></div>
       <router-link to="/projects"><div class="btn home__btn">Check Out My Work <font-awesome-icon icon="long-arrow-alt-right" class="home__arrow"/></div></router-link>
+      <div class="home__line"></div>
       <div class="home__skills">
-          <p class="home__skills--larger">I am a self-taught developer currently living just outside of <span class="home--stronger">Charlottesville, Virginia.</span></p>
-          <p>I love front-end development (<span class="home__skills--highlight">HTML</span>, <span class="home__skills--highlight">CSS</span>,
+          <p>I am a self-taught developer currently living just outside of <span class="home--stronger">Charlottesville, Virginia.</span> I love
+          front-end development (<span class="home__skills--highlight">HTML</span>, <span class="home__skills--highlight">CSS</span>,
             <span class="home__skills--highlight">Javascript</span>) because it deals with design, UI/UX and getting to work with JavaScript
             libraries like <span class="home__skills--highlight">Vue js</span>. My focus is always on a mobile first experience and making sure
             that the details scale up nicely. I enjoy back-end development (<span class="home__skills--highlight">PHP</span>,
