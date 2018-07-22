@@ -1,0 +1,98 @@
+// ===========================================
+// Projects Styles
+// ===========================================
+
+.projects {
+    text-align: left;
+
+    @media @tablet {
+        text-align: right;
+    }
+
+    &__line {
+        margin: 40px 0 40px 0;
+        width: 100%;
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
+
+        @media @tablet {
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        color: #fff;
+        width: 100%;
+        background-color: fadeout(@sidebar-color, 10%);
+        border-radius: 7px;
+
+        @media @tablet {
+            flex-direction: row;
+        }
+
+        &__left {
+            flex-basis: 35%;
+            padding: 3%;
+        }
+
+        &__right {
+            flex-grow: 1;
+            padding: 3%;
+            background-image: url(~images/trees.png);
+            background-size: cover;
+            background-position: bottom;
+        }
+
+        &__title {
+            font-size: 1.8em;
+            font-weight: 700;
+
+            @media @tablet {
+                font-size: 2em;
+            }
+
+            @media @desktop {
+                font-size: 2.5em;
+            }
+        }
+
+        &__description {
+            margin-top: 30px;
+            line-height: 2.5;
+            font-size: 0.8em;
+
+            @media @tablet {
+                line-height: 2;
+            }
+
+            @media @desktop {
+                font-size: 0.9em;
+            }
+        }
+
+        &__stack {
+            margin-top: 30px;
+            font-size: 1em;
+
+            @media @desktop {
+                font-size: 1.2em;
+            }
+        }
+
+        &__line {
+            margin: 2px 0 2px 0;
+            width: 100%;
+            border: 0;
+            height: 1px;
+            background-color: fadeout(#fff, 80%);
+        }
+    }
+
+    &--stronger {
+        font-weight: 700;
+    }
+}
