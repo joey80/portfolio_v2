@@ -29,6 +29,7 @@
         width: 100%;
         background-color: fadeout(@sidebar-color, 10%);
         border-radius: 7px;
+        margin-bottom: 60px;
 
         @media @tablet {
             flex-direction: row;
@@ -37,14 +38,21 @@
         &__left {
             flex-basis: 35%;
             padding: 3%;
+            box-shadow: 43px 0px 31px -15px rgba(0,0,0,0.46);
+            z-index: 9;
         }
 
         &__right {
             flex-grow: 1;
             padding: 3%;
+            min-height: 500px;
             background-image: url(~images/trees.png);
             background-size: cover;
             background-position: bottom;
+
+            @media @tablet {
+                height: initial;
+            }
         }
 
         &__title {
@@ -70,7 +78,7 @@
             }
 
             @media @desktop {
-                font-size: 0.9em;
+                font-size: 1em;
             }
         }
 
@@ -83,8 +91,18 @@
             }
         }
 
+        &--highlight {
+            background-color: fadeout(#fff, 95%);
+            padding: 5px;
+            border-radius: 7px;
+    
+            @media @tablet {
+                padding: 4px;
+            }
+        }
+
         &__line {
-            margin: 2px 0 2px 0;
+            margin: 2px 0 20px 0;
             width: 100%;
             border: 0;
             height: 1px;
@@ -95,4 +113,32 @@
     &--stronger {
         font-weight: 700;
     }
+}
+
+.tripsee {
+    background-color: fadeout(#1fa224, 10%);
+    color: darken(#1fa224, 40%);
+
+    &__image {
+        background-image: url(~images/tripsee1.png);
+        background-size: contain;
+        background-position: top;
+    }
+}
+
+.twiggle {
+    background-color: fadeout(#041125, 10%);
+    color: #fff;
+
+    &__image {
+        background-image: url(~images/twiggle.png);
+        background-size: cover;
+        background-position: top;
+        background-position-x: 30px; 
+    }
+}
+
+.creative {
+    background-color: fadeout(#d91122, 10%);
+    color: #fff;
 }
