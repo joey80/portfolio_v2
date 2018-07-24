@@ -3,86 +3,109 @@
       <h1>Projects</h1>
     <div class="projects__line"></div>
 
-    <!-- PROJECT START -->
+    <!-- TRIPSEE PROJECT START -->
     <div class="projects__container">
       <div class="projects__container__left">
         <div class="projects__container__title">Tripsee</div>
+        <a href="https://joeyui-tripsee.herokuapp.com/" target="_blank">Live Site</a><a href="https://github.com/joey80/tripsee_v2" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
           Tripsee is a web app that is currently a work in progress that was built with Vue.js and deployed with Heroku.
           The purpose of the app is to allow the user to search for a destination. They can either search by a city name
           or the zip code. Afterwards they are presented with data returned from several different API's such as the current
-          weather of that city, some places to eat and things to do there. I have many more features in mind to add on to
-          this along with improving the design and UI/UX.
+          weather of that city, some places to eat and things to do there. I am currently adding more features to this as I
+          continue the development of it.
         </div>
         <div class="projects__container__stack">
           <span class="projects--stronger">STACK</span>
           <div class="projects__container__line"></div>
-          <span class="projects__container--highlight">Vue.js</span> <span class="projects__container--highlight">Webpack</span>
-          <span class="projects__container--highlight">Babel</span> <span class="projects__container--highlight">Bulma</span>
-          <span class="projects__container--highlight">Express</span> <span class="projects__container--highlight">Heroku</span>
+          <span class="projects__container--highlight">Vue.js</span>
+          <span class="projects__container--highlight">Webpack</span>
+          <span class="projects__container--highlight">Babel</span>
+          <span class="projects__container--highlight">Bulma</span>
+          <span class="projects__container--highlight">Express</span>
+          <span class="projects__container--highlight">Heroku</span>
         </div>
       </div>
       <div class="projects__container__right tripsee__image"></div>
     </div>
-    <!-- PROJECT END -->
+    <!-- TRIPSEE PROJECT END -->
 
-    <!-- PROJECT START -->
+    <!-- TWIGGLE PROJECT START -->
     <div class="projects__container">
       <div class="projects__container__left">
         <div class="projects__container__title">Twiggle</div>
+        <a href="http://joeyui.com/final_twiggle/" target="_blank">Live Site</a><a href="https://github.com/joey80/final_twiggle" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
-          Seeing how the todo app is the new "Hello World" I thought that I would try my hand at it. I wanted to go more
-          of a vanilla route and code it without using a framework. The inputs trigger an AJAX call to the PHP backend
-          so everything updates without a page refresh. All the data is stored in a MySQL database and is read from an
-          API call in the AJAX. It is also fully responsive and I'm looking forward to building this out with more
-          features and enhancements.
+          My take on a todo app. The frontend is all vanilla JavaScript with some Bootstrap and custom CSS on top. The backend was
+          built with PHP 7 and mySQL. The API is just AJAX calls to JSON data that was returned from the PHP. I'm looking to refactor this
+          probably with Python/Django into more of a RESTful API architecture. The user data is handled with auth0 and accepts email, Facebook
+          or Google social logins. It's fully resonsive and is pretty fun to use.
         </div>
         <div class="projects__container__stack">
           <span class="projects--stronger">STACK</span>
           <div class="projects__container__line"></div>
-          <span class="projects__container--highlight">HTML</span> <span class="projects__container--highlight">CSS3 (PostCSS)</span>
-          <span class="projects__container--highlight">Javascript (XJAX, Gulp, Webpack)</span> <span class="projects__container--highlight">PHP</span>
+          <span class="projects__container--highlight">HTML</span>
+          <span class="projects__container--highlight">PostCSS</span>
+          <span class="projects__container--highlight">Bootstrap</span>
+          <span class="projects__container--highlight">Javascript</span>
+          <span class="projects__container--highlight">AJAX</span>
+          <span class="projects__container--highlight">Gulp</span>
+          <span class="projects__container--highlight">Webpack</span>
+          <span class="projects__container--highlight">PHP</span>
           <span class="projects__container--highlight">MySQL</span>
+          <span class="projects__container--highlight">auth0</span>
         </div>
       </div>
       <div class="projects__container__right twiggle__image"></div>
     </div>
-    <!-- PROJECT END -->
+    <!-- TWIGGLE PROJECT END -->
 
-    <!-- PROJECT START -->
-    <div class="projects__container creative">
+    <!-- CREATIVE PROJECT START -->
+    <div class="projects__container">
       <div class="projects__container__left">
-        <div class="projects__container__title">Creative Wonder</div>
+        <div class="projects__container__title projects--smaller">Creative Wonder</div>
+        <a href="http://joeyui.byethost7.com/creative-wonder/" target="_blank">Live Site</a><a href="https://github.com/joey80/creative-wonder" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
-          This is a demo website that I made for a fictional daycare company. I'm in the process of building it out into
-          a full laraval backend but for the moment it is just a static site. All of the design and coding was done by me.
-          It is fully responsive and was build with CSS3 and Javascript.
+          This is a theme for a Wordpress project that I was working on. It is fully responsive and was built with CSS3
+          and Javascript with all of the design and coding done by me.
         </div>
         <div class="projects__container__stack">
-          <span class="projects--stronger">STACK</span><br />
+          <span class="projects--stronger">STACK</span>
           <div class="projects__container__line"></div>
+          <span class="projects__container--highlight">HTML</span>
+          <span class="projects__container--highlight">PostCSS</span>
+          <span class="projects__container--highlight">Javascript</span>
+          <span class="projects__container--highlight">Gulp</span>
+          <span class="projects__container--highlight">Webpack</span>
         </div>
       </div>
-      <div class="projects__container__right">im on the right</div>
+      <div class="projects__container__right creative__image"></div>
     </div>
-    <!-- PROJECT END -->
+    <!-- CREATIVE PROJECT END -->
 
-    <!-- PROJECT START -->
+    <!-- JOEYUI PROJECT START -->
     <div class="projects__container">
       <div class="projects__container__left">
         <div class="projects__container__title">Joey UI</div>
+        <a href="https://github.com/joey80/portfolio_v2" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
           This is the site that you're on right now. This is just a place where I can showcase my work and I'm looking forward
-          to adding more to it in the future.
+          to adding more to it in the future. Let me know what you think!
         </div>
         <div class="projects__container__stack">
-          <span class="projects--stronger">STACK</span><br />
+          <span class="projects--stronger">STACK</span>
           <div class="projects__container__line"></div>
+          <span class="projects__container--highlight">Vue.js</span>
+          <span class="projects__container--highlight">Webpack</span>
+          <span class="projects__container--highlight">Babel</span>
+          <span class="projects__container--highlight">Less</span>
+          <span class="projects__container--highlight">Express</span>
+          <span class="projects__container--highlight">Heroku</span>
         </div>
       </div>
-      <div class="projects__container__right">im on the right</div>
+      <div class="projects__container__right joeyui__image"></div>
     </div>
-    <!-- PROJECT END -->
+    <!-- JOEYUI PROJECT END -->
 
 
   </div>
