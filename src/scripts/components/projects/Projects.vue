@@ -34,7 +34,7 @@
     <div class="projects__container">
       <div class="projects__container__left">
         <div class="projects__container__title">Twiggle</div>
-        <a href="http://joeyui.com/final_twiggle/" target="_blank">Live Site</a><a href="https://github.com/joey80/final_twiggle" target="_blank">GitHub Source</a>
+        <a href="http://visitwalt.com/final_twiggle/" target="_blank">Live Site</a><a href="https://github.com/joey80/final_twiggle" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
           My take on a todo app. The frontend is all vanilla JavaScript with some Bootstrap and custom CSS on top. The backend was
           built with PHP 7 and mySQL. The API is just AJAX calls to JSON data that was returned from the PHP. I'm looking to refactor this
