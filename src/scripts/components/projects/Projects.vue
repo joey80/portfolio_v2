@@ -100,7 +100,7 @@
           <span class="projects__container--highlight">Babel</span>
           <span class="projects__container--highlight">Less</span>
           <span class="projects__container--highlight">Express</span>
-          <span class="projects__container--highlight">Heroku</span>
+          <span class="projects__container--highlight">Digital Ocean Droplet</span>
         </div>
       </div>
       <div class="projects__container__right joeyui__image"></div>
