@@ -10,7 +10,8 @@
     "restart": "pm2 restart all",
     "start-old": "node server.js",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "build": "webpack -p",
+    "build-old": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.12",
