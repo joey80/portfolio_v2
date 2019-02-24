@@ -15,7 +15,7 @@
             that the details scale up nicely. I enjoy back-end development - <span class="home__skills--highlight">Node</span>,
             <span class="home__skills--highlight">PHP</span>, <span class="home__skills--highlight">mySQL</span>, <span class="home__skills--highlight">Express</span> - because this is
             where all of the functionality is. With front-end work it’s fun to design the look of the car but with back-end I like to get my
-            ‘hands greasy’ in the engine creating databases and API’s.</p>
+            ‘hands greasy’ in the engine creating databases, API’s and spinning up servers on AWS, Digital Ocean or Heroku.</p>
       </div>
       <img src=~images/stock__computer.jpeg class="home__image" />
   </div>
