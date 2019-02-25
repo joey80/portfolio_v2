@@ -8,14 +8,16 @@
       <router-link to="/projects"><div class="btn home__btn">Check Out My Work <font-awesome-icon icon="long-arrow-alt-right" class="home__arrow"/></div></router-link>
       <div class="home__line"></div>
       <div class="home__skills">
-          <p>I am a full-stack developer currently living just outside of <span class="home--stronger">Charlottesville, Virginia.</span> I love
-          front-end development - <span class="home__skills--highlight">HTML</span>, <span class="home__skills--highlight">CSS</span>,
-            <span class="home__skills--highlight">Javascript</span> - because it deals with design, UI/UX and getting to work with JavaScript
-            libraries like <span class="home__skills--highlight">Vue js</span>. My focus is always on a mobile first experience and making sure
-            that the details scale up nicely. I enjoy back-end development - <span class="home__skills--highlight">Node</span>,
-            <span class="home__skills--highlight">PHP</span>, <span class="home__skills--highlight">mySQL</span>, <span class="home__skills--highlight">Express</span> - because this is
-            where all of the functionality is. With front-end work it’s fun to design the look of the car but with back-end I like to get my
-            ‘hands greasy’ in the engine creating databases, API’s and spinning up servers on AWS, Digital Ocean or Heroku.</p>
+          <p>I am a full-stack developer by trade who lives just outside of <span class="home--stronger">Charlottesville, Virginia</span> and I'm
+          passionate about technology - not a specific framework or language. In this line of work it's about adaptation, and what works
+          best for the project. I'm open to learning any stack if it works. I want to be the best developer I can be. I enjoy creating in
+          my career and after hours. I believe in shipping quality code and working in flow.</p>
+          <p>I love both sides of full-stack development. The front-end scratches my creative itch, especially when it comes to UI/UX and
+          building mobile-first experiences. I also enjoy all things Javascript and using libraries such as <span class="home__skills--highlight">React</span>,
+          and <span class="home__skills--highlight">Vue</span>. With the back-end side I enjoy working with <span class="home__skills--highlight">Node</span>,
+          <span class="home__skills--highlight">Express</span>, <span class="home__skills--highlight">PHP</span>, and
+          <span class="home__skills--highlight">MySQL</span> because this is where all of the functionality is. I enjoy spinning up new
+          servers on either AWS, Digital Ocean or Heroku and creating databases and API's.</p>
       </div>
       <img src=~images/stock__computer.jpeg class="home__image" />
   </div>
