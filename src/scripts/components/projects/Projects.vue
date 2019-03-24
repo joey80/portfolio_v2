@@ -30,6 +30,30 @@
     </div>
     <!-- TRIPSEE PROJECT END -->
 
+    <!-- CREATIVE PROJECT START -->
+    <div class="projects__container">
+      <div class="projects__container__left">
+        <div class="projects__container__title projects--smaller">Creative Wonder</div>
+        <a href="https://joeyui-creativewonder.herokuapp.com/" target="_blank">Live Site</a><a href="https://github.com/joey80/creative_wonder_frontend_v2" target="_blank">GitHub Source</a>
+        <div class="projects__container__description">
+          This is a React project that I've been working on. I created the design and I've been gradually building out some features for it.
+          When it is finished it will be a full-stack project but right now I just have the front-end to show.
+        </div>
+        <div class="projects__container__stack">
+          <span class="projects--stronger">STACK</span>
+          <div class="projects__container__line"></div>
+          <span class="projects__container--highlight">React</span>
+          <span class="projects__container--highlight">Jest</span>
+          <span class="projects__container--highlight">Sass</span>
+          <span class="projects__container--highlight">Webpack</span>
+          <span class="projects__container--highlight">Cloudinary</span>
+          <span class="projects__container--highlight">Heroku</span>
+        </div>
+      </div>
+      <div class="projects__container__right creative__image"></div>
+    </div>
+    <!-- CREATIVE PROJECT END -->
+
     <!-- TWIGGLE PROJECT START -->
     <div class="projects__container">
       <div class="projects__container__left">
@@ -60,28 +84,26 @@
     </div>
     <!-- TWIGGLE PROJECT END -->
 
-    <!-- CREATIVE PROJECT START -->
+    <!-- CSV IMPORT PROJECT START -->
     <div class="projects__container">
       <div class="projects__container__left">
-        <div class="projects__container__title projects--smaller">Creative Wonder</div>
-        <a href="http://joeyui.byethost7.com/creative-wonder/" target="_blank">Live Site</a><a href="https://github.com/joey80/creative-wonder" target="_blank">GitHub Source</a>
+        <div class="projects__container__title">CSV Importer</div>
+        <a href="https://github.com/joey80/csv_import" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
-          This is a theme for a Wordpress project that I was working on. It is fully responsive and was built with CSS3
-          and Javascript with all of the design and coding done by me.
+          This was from a project that I worked on that required several csv files to be processed and have
+          their contents saved to a database nightly via a cron job. I used PHP 7 for this as it was part
+          of an existing LAMP stack that used a CMS.
         </div>
         <div class="projects__container__stack">
           <span class="projects--stronger">STACK</span>
           <div class="projects__container__line"></div>
-          <span class="projects__container--highlight">HTML</span>
-          <span class="projects__container--highlight">PostCSS</span>
-          <span class="projects__container--highlight">Javascript</span>
-          <span class="projects__container--highlight">Gulp</span>
-          <span class="projects__container--highlight">Webpack</span>
+          <span class="projects__container--highlight">PHP</span>
+          <span class="projects__container--highlight">MySQL</span>
         </div>
       </div>
-      <div class="projects__container__right creative__image"></div>
+      <div class="projects__container__right csv__image"></div>
     </div>
-    <!-- CREATIVE PROJECT END -->
+    <!-- CSV IMPORT PROJECT END -->
 
     <!-- JOEYUI PROJECT START -->
     <div class="projects__container">
