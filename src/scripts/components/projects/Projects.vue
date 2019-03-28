@@ -1,7 +1,11 @@
 <template>
   <div class="projects">
       <h1>Projects</h1>
-    <div class="projects__line"></div>
+      <div class="projects__message">
+          <strong>Note:</strong> Most of these projects are hosted on free Heroku Dynos. Since they are free they require
+          a 15-30 second 'wake up' period to spin up the dyno. The initial load time is not due to the app itself.
+      </div>
+      <div class="projects__line"></div>
 
     <!-- TRIPSEE PROJECT START -->
     <div class="projects__container">
@@ -58,12 +62,11 @@
     <div class="projects__container">
       <div class="projects__container__left">
         <div class="projects__container__title">Twiggle</div>
-        <a href="http://visitwalt.com/final_twiggle/" target="_blank">Live Site</a><a href="https://github.com/joey80/final_twiggle" target="_blank">GitHub Source</a>
+        <a href="https://joeyui-twiggle.herokuapp.com" target="_blank">Live Site</a><a href="https://github.com/joey80/final_twiggle" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
           My take on a todo app. The frontend is all vanilla JavaScript with some Bootstrap and custom CSS on top. The backend was
-          built with PHP 7 and mySQL. The API is just AJAX calls to JSON data that was returned from the PHP. I'm looking to refactor this
-          probably with Python/Django into more of a RESTful API architecture. The user data is handled with auth0 and accepts email, Facebook
-          or Google social logins. It's fully resonsive and is pretty fun to use.
+          built with PHP 7 and MySQL. The API is just AJAX calls to JSON data that was returned from the PHP. The user data is
+          handled with auth0 and accepts email, Facebook or Google social logins. It's fully resonsive and is pretty fun to use.
         </div>
         <div class="projects__container__stack">
           <span class="projects--stronger">STACK</span>
@@ -78,6 +81,7 @@
           <span class="projects__container--highlight">PHP</span>
           <span class="projects__container--highlight">MySQL</span>
           <span class="projects__container--highlight">auth0</span>
+          <span class="projects__container--highlight">Heroku</span>
         </div>
       </div>
       <div class="projects__container__right twiggle__image"></div>
