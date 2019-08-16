@@ -8,7 +8,7 @@
       <router-link to="/projects"><div class="btn home__btn">Check Out My Work <font-awesome-icon icon="long-arrow-alt-right" class="home__arrow"/></div></router-link>
       <div class="home__line"></div>
       <div class="home__skills">
-          <p>I am a front-end engineer by trade who lives just outside of <span class="home--stronger">Charlotte, North Caroline</span> and I'm
+          <p>I am a front-end engineer by trade who lives just outside of <span class="home--stronger">Charlotte, North Carolina</span> and I'm
           passionate about technology - not a specific framework or language. In this line of work it's about adaptation, and what works
           best for the project. I'm open to learning any stack if it works. I want to be the best developer I can be. I enjoy creating in
           my career and after hours. I believe in shipping quality code and working in flow.</p>
