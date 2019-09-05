@@ -6,6 +6,33 @@
           a 15-30 second 'wake up' period to spin up the dyno. The initial load time is not due to the app itself.
       </div>
       <div class="projects__line"></div>
+    
+    <!-- REALESTATE PROJECT START -->
+    <div class="projects__container">
+      <div class="projects__container__left">
+        <div class="projects__container__title">RealEstate</div>
+        <a href="https://awesome-visvesvaraya-c64020.netlify.com" target="_blank">Live Site</a><a href="https://github.com/joey80/realestate" target="_blank">GitHub Source</a>
+        <div class="projects__container__description">
+          This real estate app is built with React and Redux. It's powered by the Zillow API and will return home and
+          pricing data for the address that you type in. It also uses Storybook for the UI development which is pretty
+          fun to and helpful to use and its hosted with Netlify.
+        </div>
+        <div class="projects__container__stack">
+          <span class="projects--stronger">STACK</span>
+          <div class="projects__container__line"></div>
+          <span class="projects__container--highlight">React</span>
+          <span class="projects__container--highlight">Redux</span>
+          <span class="projects__container--highlight">Jest</span>
+          <span class="projects__container--highlight">Enzyme</span>
+          <span class="projects__container--highlight">Chai</span>
+          <span class="projects__container--highlight">Sass</span>
+          <span class="projects__container--highlight">Storybook</span>
+          <span class="projects__container--highlight">Netlify</span>
+        </div>
+      </div>
+      <div class="projects__container__right realestate__image"></div>
+    </div>
+    <!-- REALESTATE PROJECT END -->
 
     <!-- TRIPSEE PROJECT START -->
     <div class="projects__container">
