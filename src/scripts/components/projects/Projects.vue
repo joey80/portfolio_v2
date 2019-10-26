@@ -11,7 +11,7 @@
     <div class="projects__container">
       <div class="projects__container__left">
         <div class="projects__container__title">RealEstate</div>
-        <a href="https://awesome-visvesvaraya-c64020.netlify.com" target="_blank">Live Site</a><a href="https://github.com/joey80/realestate" target="_blank">GitHub Source</a>
+        <a href="https://joeyui-realestate.netlify.com/" target="_blank">Live Site</a><a href="https://github.com/joey80/realestate" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
           This real estate app is built with React and Redux. It's powered by the Zillow API and will return home and
           pricing data for the address that you type in. It also uses Storybook for the UI development which is pretty
@@ -61,11 +61,11 @@
     </div>
     <!-- TRIPSEE PROJECT END -->
 
-    <!-- CREATIVE PROJECT START -->
+    <!-- CREATIVE WONDER PROJECT START -->
     <div class="projects__container">
       <div class="projects__container__left">
         <div class="projects__container__title projects--smaller">Creative Wonder</div>
-        <a href="https://joeyui-creativewonder.herokuapp.com/" target="_blank">Live Site</a><a href="https://github.com/joey80/creative_wonder_frontend_v2" target="_blank">GitHub Source</a>
+        <a href="https://joeyui-creativewonder.netlify.com/" target="_blank">Live Site</a><a href="https://github.com/joey80/creative_wonder_frontend_v2" target="_blank">GitHub Source</a>
         <div class="projects__container__description">
           This is a React project that I've been working on. I created the design and I've been gradually building out some features for it.
           When it is finished it will be a full-stack project but right now I just have the front-end to show.
@@ -78,12 +78,12 @@
           <span class="projects__container--highlight">Sass</span>
           <span class="projects__container--highlight">Webpack</span>
           <span class="projects__container--highlight">Cloudinary</span>
-          <span class="projects__container--highlight">Heroku</span>
+          <span class="projects__container--highlight">Netlify</span>
         </div>
       </div>
       <div class="projects__container__right creative__image"></div>
     </div>
-    <!-- CREATIVE PROJECT END -->
+    <!-- CREATIVE WONDER PROJECT END -->
 
     <!-- TWIGGLE PROJECT START -->
     <div class="projects__container">
