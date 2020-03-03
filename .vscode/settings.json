@@ -1,0 +1,20 @@
+{
+  //"javascript.implicitProjectConfig.checkJs": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "prettier.printWidth": 100,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#142046",
+    "titleBar.inactiveForeground": "#142046",
+    "titleBar.activeBackground": "#28b0da",
+    "titleBar.inactiveBackground": "#28b0da"
+  },
+  "window.zoomLevel": 0
+}
