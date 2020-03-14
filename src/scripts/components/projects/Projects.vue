@@ -25,14 +25,14 @@
         <div class="projects__container__stack">
           <span class="projects--stronger">STACK</span>
           <div class="projects__container__line" />
-          <span class="projects__container--highlight">React</span>
-          <span class="projects__container--highlight">Redux</span>
-          <span class="projects__container--highlight">Jest</span>
-          <span class="projects__container--highlight">Enzyme</span>
-          <span class="projects__container--highlight">Chai</span>
-          <span class="projects__container--highlight">Sass</span>
-          <span class="projects__container--highlight">Storybook</span>
-          <span class="projects__container--highlight">Netlify</span>
+          <Badge>React</Badge>
+          <Badge>Redux</Badge>
+          <Badge>Jest</Badge>
+          <Badge>Enzyme</Badge>
+          <Badge>Chai</Badge>
+          <Badge>Sass</Badge>
+          <Badge>Storybook</Badge>
+          <Badge>Netlify</Badge>
         </div>
       </div>
       <div class="projects__container__right realestate__image" />
@@ -189,8 +189,13 @@
 
 <script>
 import { eventBus, state } from '../../main';
+import Badge from '../Badge/Badge';
 
-export default {};
+export default {
+  components: {
+    Badge
+  }
+};
 </script>
 
 <style lang="less">
