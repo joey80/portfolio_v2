@@ -1,7 +1,7 @@
 <template>
   <div class="app__container">
-    <sidebar-div></sidebar-div>
-    <content-div></content-div>
+    <sidebar-div />
+    <content-div />
   </div>
 </template>
 

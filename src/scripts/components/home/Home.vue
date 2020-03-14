@@ -5,11 +5,12 @@
       my name is <span class="home--stronger">Joey Leger</span><br />
       and I'm a front-end engineer.
     </div>
-    <router-link to="/projects"
-      ><div class="btn home__btn">
-        Check Out My Work <font-awesome-icon icon="long-arrow-alt-right" class="home__arrow" /></div
-    ></router-link>
-    <div class="home__line"></div>
+    <router-link to="/projects">
+      <div class="btn home__btn">
+        Check Out My Work <font-awesome-icon icon="long-arrow-alt-right" class="home__arrow" />
+      </div>
+    </router-link>
+    <div class="home__line" />
     <div class="home__skills">
       <p>
         I am a front-end engineer by trade who lives just outside of
@@ -32,7 +33,7 @@
         functionality is.
       </p>
     </div>
-    <img src=~images/stock__computer.jpeg class="home__image" />
+    <img src="~images/stock__computer.jpeg" class="home__image" />
   </div>
 </template>
 
