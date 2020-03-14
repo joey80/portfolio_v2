@@ -17,5 +17,6 @@
     "titleBar.activeBackground": "#28b0da",
     "titleBar.inactiveBackground": "#28b0da"
   },
-  "window.zoomLevel": 0
+  "window.zoomLevel": 0,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"]
 }

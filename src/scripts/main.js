@@ -18,12 +18,12 @@ Vue.use(VueRouter);
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 const router = new VueRouter({
-    routes,
-    mode: 'history'
+  routes,
+  mode: 'history'
 });
 
 new Vue({
-    el: '#app',
-    router,
-    render: h => h(App)
+  el: '#app',
+  router,
+  render: h => h(App)
 });
