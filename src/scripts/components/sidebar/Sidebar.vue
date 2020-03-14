@@ -37,13 +37,7 @@
 <script>
 import { eventBus, state } from '../../main';
 
-export default {
-  components: {},
-  data: function() {
-    return {};
-  },
-  mounted() {}
-};
+export default {};
 </script>
 
 <style lang="less">
