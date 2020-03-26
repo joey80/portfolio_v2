@@ -10,12 +10,12 @@ export const Data = [
   },
   {
     title: 'Tripsee',
-    siteURL: 'https://joeyui-tripsee.herokuapp.com/',
+    siteURL: 'https://joeyui-tripsee.netlify.com/',
     gitURL: 'https://github.com/joey80/tripsee_v2',
     imageURL: 'tripsee__image',
     description:
       "Tripsee is a web app that is currently a work in progress that was built with Vue.js and deployed with Heroku. The purpose of the app is to allow the user to search for a destination. They can either search by a city name or the zip code. Afterwards they are presented with data returned from several different API's such as the current weather of that city, some places to eat and things to do there. I am currently adding more features to this as I continue the development of it.",
-    stack: ['Vue.js', 'Webpack', 'Babel', 'Bulma', 'Express', 'Heroku']
+    stack: ['Vue.js', 'Vuex', 'Webpack', 'Babel', 'Bulma', 'Express', 'Netlify']
   },
   {
     title: 'Creative Wonder',
