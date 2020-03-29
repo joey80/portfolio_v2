@@ -30,7 +30,7 @@
         of the functionality is.
       </p>
     </div>
-    <img src="~@/assets/images/stock__computer.jpeg" class="home__image" />
+    <img src="~@/assets/images/stock__computer.jpg" class="home__image" />
   </section>
 </template>
 
