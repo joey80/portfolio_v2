@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="app__container">
     <joey-sidebar />
     <joey-content-container />
   </section>
@@ -16,3 +16,17 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.app {
+  &__container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+
+    @include tablet {
+      flex-direction: row;
+    }
+  }
+}
+</style>
