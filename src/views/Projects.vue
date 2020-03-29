@@ -18,7 +18,7 @@
             <span class="projects--stronger">STACK</span>
             <div class="projects__container__line" />
             <template v-for="elm in item.stack">
-              <joey-badge :key="elm">
+              <joey-badge :key="elm" type="project">
                 {{ elm }}
               </joey-badge>
             </template>

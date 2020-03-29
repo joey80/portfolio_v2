@@ -14,7 +14,8 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'import/prefer-default-export': 'off',
     'no-underscore-dangle': 'off',
-    'operator-linebreak': 'off'
+    'operator-linebreak': 'off',
+    'no-param-reassign': ['error', { props: false }]
   },
   overrides: [
     {
