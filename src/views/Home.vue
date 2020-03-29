@@ -24,18 +24,25 @@
         I love both sides of full-stack development. The front-end scratches my creative itch,
         especially when it comes to UI/UX and building mobile-first experiences. I also enjoy all
         things Javascript and using libraries such as
-        <span class="home__skills--highlight">React</span>, and
-        <span class="home__skills--highlight">Vue</span>. With the back-end side I enjoy working
-        with <span class="home__skills--highlight">Node</span>,
-        <span class="home__skills--highlight">Express</span>,
-        <span class="home__skills--highlight">PHP</span>, and
-        <span class="home__skills--highlight">MySQL</span> because this is where all of the
-        functionality is.
+        <joey-badge>React</joey-badge>, and <joey-badge>Vue</joey-badge>. With the back-end side I
+        enjoy working with <joey-badge>Node</joey-badge>, <joey-badge>Express</joey-badge>,
+        <joey-badge>PHP</joey-badge>, and <joey-badge>MySQL</joey-badge> because this is where all
+        of the functionality is.
       </p>
     </div>
     <img src="~@/assets/images/stock__computer.jpeg" class="home__image" />
   </section>
 </template>
+
+<script>
+import Badge from '../components/Badge/Badge.vue';
+
+export default {
+  components: {
+    joeyBadge: Badge
+  }
+};
+</script>
 
 <style lang="scss">
 .home {
