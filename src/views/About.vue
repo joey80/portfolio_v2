@@ -22,7 +22,7 @@
         spending time with my wife and two children.
       </p>
     </div>
-    <img src=~@/assets/images/about.jpg class="home__image" />
+    <img src="~@/assets/images/about.jpg" class="home__image" />
   </div>
 </template>
 
