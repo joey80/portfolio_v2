@@ -16,7 +16,3 @@ export default {
   }
 };
 </script>
-
-<style lang="less">
-@import './global/main.less';
-</style>
