@@ -1,8 +1,13 @@
 {
-  "name": "new",
+  "name": "portfolio",
   "description": "Joeyui.com Personal Portfolio For Joey Leger",
   "version": "0.0.0-development",
   "private": true,
+  "release": {
+    "branches": [
+      "release"
+    ]
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
