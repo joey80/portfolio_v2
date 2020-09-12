@@ -36,13 +36,13 @@ import { Data } from '../assets/data/projects.data';
 
 export default {
   components: {
-    joeyBadge: Badge
+    joeyBadge: Badge,
   },
   data() {
     return {
-      items: Data
+      items: Data,
     };
-  }
+  },
 };
 </script>
 
