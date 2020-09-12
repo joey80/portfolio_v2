@@ -39,8 +39,8 @@ import Badge from '../components/Badge/Badge.vue';
 
 export default {
   components: {
-    joeyBadge: Badge
-  }
+    joeyBadge: Badge,
+  },
 };
 </script>
 
