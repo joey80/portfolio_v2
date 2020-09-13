@@ -5,6 +5,7 @@
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "explorer.openEditors.visible": 0,
+  "files.eol": "\r\n",
   "prettier.printWidth": 100,
   "prettier.semi": true,
   "prettier.singleQuote": true,

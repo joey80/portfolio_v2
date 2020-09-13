@@ -6,9 +6,9 @@
       and I'm a front-end engineer.
     </div>
     <router-link to="/projects">
-      <button class="home__btn">
+      <Button class="home__btn">
         Check Out My Work &rarr;
-      </button>
+      </Button>
     </router-link>
     <div class="home__line" />
     <div class="home__skills">
@@ -36,11 +36,13 @@
 
 <script>
 import Badge from '../components/Badge/Badge.vue';
+import Button from '../components/Button/index.vue';
 
 export default {
   components: {
-    joeyBadge: Badge
-  }
+    joeyBadge: Badge,
+    Button,
+  },
 };
 </script>
 
