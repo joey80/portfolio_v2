@@ -24,8 +24,6 @@ npm run build
 npm run test:unit
 ```
 
-Soon..
-
 ### Lints and fixes files
 
 ```
