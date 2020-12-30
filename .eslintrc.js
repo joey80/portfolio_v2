@@ -11,7 +11,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     'comma-dangle': 'off',
     'import/prefer-default-export': 'off',
-    'max-len': ["error", { "code": 150 }],
+    'max-len': ['error', { code: 150 }],
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-param-reassign': ['error', { props: false }],
