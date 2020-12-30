@@ -1,11 +1,11 @@
 <template>
   <section class="home">
-    <div class="home__message">
+    <h1 class="home__message">
       Hello.<br />
       my name is <span class="home--stronger">Joey Leger</span><br />
       and I'm a front-end engineer.
-    </div>
-    <router-link to="/projects">
+    </h1>
+    <router-link to="/projects" aria-label="portfolio">
       <Button class="home__btn">
         Check Out My Work &rarr;
       </Button>
@@ -30,7 +30,7 @@
         of the functionality is.
       </p>
     </div>
-    <img src="~@/assets/images/stock__computer.jpg" class="home__image" />
+    <img src="~@/assets/images/stock__computer.jpg" alt="laptop computer on table" class="home__image" height="541" width="811" />
   </section>
 </template>
 
@@ -158,13 +158,20 @@ export default {
   }
 
   &__image {
-    margin: 60px auto 80px auto;
     border-radius: 7px;
-    max-width: 100%;
+    margin: 60px auto 80px auto;
+    max-height: 200px;
+    max-width: 70%;
 
     @include tablet {
+      margin: 70px 0 80px 0;
+      max-height: 300px;
+    }
+
+    @include desktop {
       margin: 100px 0 80px 0;
-      max-width: 70%;
+      max-height: 100%;
+      max-width: 100%;
     }
   }
 
