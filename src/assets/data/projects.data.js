@@ -52,6 +52,6 @@ export const Data = [
     imageURL: 'joeyui__image',
     description:
       "This is the site that you're on right now. This is just a place where I can showcase my work and I'm looking forward to adding more to it in the future. Let me know what you think!",
-    stack: ['Vue.js', 'Webpack', 'Babel', 'Less', 'Express', 'Digital Ocean Droplet'],
+    stack: ['Vue.js', 'Webpack', 'Babel', 'Less', 'Express', 'Netlify'],
   },
 ];
