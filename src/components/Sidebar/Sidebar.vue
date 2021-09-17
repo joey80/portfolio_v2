@@ -3,19 +3,13 @@
     <div class="sidebar__links">
       <ul>
         <li>
-          <router-link to="/" aria-label="home">
-            Home
-          </router-link>
+          <router-link to="/" aria-label="home"> Home </router-link>
         </li>
         <li>
-          <router-link to="/projects" aria-label="projects">
-            Projects
-          </router-link>
+          <router-link to="/projects" aria-label="projects"> Projects </router-link>
         </li>
         <li>
-          <router-link to="/about" aria-label="about">
-            About
-          </router-link>
+          <router-link to="/about" aria-label="about"> About </router-link>
         </li>
       </ul>
     </div>
@@ -29,13 +23,20 @@
         <li>
           check out my
           <span class="sidebar--stronger">
-            <a href="https://github.com/joey80" aria-label="github" rel="noopener" target="_blank">GitHub</a>
+            <a href="https://github.com/joey80" aria-label="github" rel="noopener" target="_blank"
+              >GitHub</a
+            >
           </span>
         </li>
         <li>
           connect with me on
           <span class="sidebar--stronger">
-            <a href="https://www.linkedin.com/in/joey-leger-363715a5/" aria-label="linkedIn" rel="noopener" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/joey-leger-363715a5/"
+              aria-label="linkedIn"
+              rel="noopener"
+              target="_blank"
+            >
               LinkedIn
             </a>
           </span>
@@ -178,10 +179,6 @@
 
     @include tablet {
       display: block;
-    }
-
-    @include desktop {
-      display: inline-block;
     }
   }
 

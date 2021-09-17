@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>About Me</h1>
-    <div class="about__line"></div>
+    <div class="about__line" />
     <div class="about__message">
       <p>
         I enjoy creating web apps and
@@ -22,18 +22,18 @@
         spending time with my wife and two children.
       </p>
     </div>
-    <img src="~@/assets/images/about.jpg" class="home__image" />
+    <img alt="laptop computer on table" src="~@/assets/images/about.jpg" class="home__image" />
   </div>
 </template>
 
 <script>
-import Badge from '../components/Badge/Badge.vue';
+import Badge from '../components/Badge/Badge.vue'
 
 export default {
   components: {
-    joeyBadge: Badge
-  }
-};
+    joeyBadge: Badge,
+  },
+}
 </script>
 
 <style lang="scss">

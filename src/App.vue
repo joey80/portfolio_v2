@@ -6,15 +6,15 @@
 </template>
 
 <script>
-import ContentContainer from './components/ContentContainer/ContentContainer.vue';
-import Sidebar from './components/Sidebar/Sidebar.vue';
+import ContentContainer from './components/ContentContainer/ContentContainer.vue'
+import Sidebar from './components/Sidebar/Sidebar.vue'
 
 export default {
   components: {
     joeyContentContainer: ContentContainer,
-    joeySidebar: Sidebar
-  }
-};
+    joeySidebar: Sidebar,
+  },
+}
 </script>
 
 <style lang="scss">

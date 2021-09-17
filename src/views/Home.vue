@@ -6,9 +6,7 @@
       and I'm a front-end engineer.
     </h1>
     <router-link to="/projects" aria-label="portfolio">
-      <Button class="home__btn">
-        Check Out My Work &rarr;
-      </Button>
+      <Button class="home__btn"> Check Out My Work &rarr; </Button>
     </router-link>
     <div class="home__line" />
     <div class="home__skills">
@@ -30,20 +28,26 @@
         of the functionality is.
       </p>
     </div>
-    <img src="~@/assets/images/stock__computer.jpg" alt="laptop computer on table" class="home__image" height="541" width="811" />
+    <img
+      src="~@/assets/images/stock__computer.jpg"
+      alt="laptop computer on table"
+      class="home__image"
+      height="541"
+      width="811"
+    />
   </section>
 </template>
 
 <script>
-import Badge from '../components/Badge/Badge.vue';
-import Button from '../components/Button/index.vue';
+import Badge from '../components/Badge/Badge.vue'
+import Button from '../components/Button/index.vue'
 
 export default {
   components: {
     joeyBadge: Badge,
     Button,
   },
-};
+}
 </script>
 
 <style lang="scss">
