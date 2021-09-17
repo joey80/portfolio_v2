@@ -7,9 +7,12 @@
 <script>
 export default {
   props: {
-    type: String
-  }
-};
+    type: {
+      type: String,
+      default: 'project',
+    },
+  },
+}
 </script>
 
 <style lang="scss">
@@ -25,7 +28,7 @@ export default {
   }
 
   &--project {
-    display: inline-block;
+    display: inline;
     margin: 5px;
   }
 }
