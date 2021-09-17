@@ -31,8 +31,8 @@
 </template>
 
 <script>
-import Badge from '../components/Badge/Badge.vue';
-import { Data } from '../assets/data/projects.data';
+import Badge from '../components/Badge/Badge.vue'
+import { Data } from '../assets/data/projects.data'
 
 export default {
   components: {
@@ -41,9 +41,9 @@ export default {
   data() {
     return {
       items: Data,
-    };
+    }
   },
-};
+}
 </script>
 
 <style lang="scss">
