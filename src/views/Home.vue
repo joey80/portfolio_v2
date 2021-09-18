@@ -29,11 +29,12 @@
       </p>
     </div>
     <img
-      src="~@/assets/images/stock__computer.jpg"
+      :src="
+        mobile
+          ? require(`@/assets/images/stock__computer-mobile.jpg`)
+          : require(`@/assets/images/stock__computer.jpg`)
+      "
       alt="laptop computer on table"
-      class="home__image"
-      height="541"
-      width="811"
     />
   </section>
 </template>
@@ -41,11 +42,28 @@
 <script>
 import Badge from '../components/Badge/Badge.vue'
 import Button from '../components/Button/index.vue'
+import { isMobile } from '../utils/index'
 
 export default {
   components: {
     joeyBadge: Badge,
     Button,
+  },
+  data() {
+    return {
+      mobile: false,
+    }
+  },
+  created() {
+    window.addEventListener('resize', this.handleIsMobile)
+  },
+  destroyed() {
+    window.removeEventListener('resize', this.handleIsMobile)
+  },
+  methods: {
+    handleIsMobile() {
+      this.mobile = isMobile()
+    },
   },
 }
 </script>
