@@ -32,7 +32,7 @@
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-vue": "^7.17.0",
     "eslint-plugin-vuejs-accessibility": "^0.7.1",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.0",
     "prettier": "2.4.1",
     "sass-loader": "^10.1.1",
     "semantic-release": "^17.4.7",
