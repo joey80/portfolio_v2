@@ -7,19 +7,20 @@
         I enjoy creating web apps and
         <span class="home--stronger">mobile-first responsive websites</span> that not only have a
         pleasing look but also are fast loading and cleanly coded. I'm very passionate about the
-        user experience and getting the details just right. I've worked for various companies as a
-        web developer and have freelanced for several years as well. During this time I'm spent time
-        using various languages for the web including <joey-badge>Python</joey-badge>,
-        <joey-badge>.NET</joey-badge>, <joey-badge>PHP</joey-badge>,
-        <joey-badge>Javascript</joey-badge> along with <joey-badge>HTML</joey-badge> and
+        user experience, accessibility and getting the details just right.
+      </p>
+      <p>
+        During my career I've spent time using various languages including <joey-badge>Python</joey-badge>,
+        <joey-badge>C#/.NET</joey-badge>, <joey-badge>PHP</joey-badge>,
+        <joey-badge>Typescript/Javascript</joey-badge> along with <joey-badge>HTML</joey-badge> and
         <joey-badge>CSS</joey-badge>. I'm constantly striving to push myself past my limits and to
         learn as much as I possibly can. I try to live a life of continuous improvement where I
         never let myself get stagnant or feel that I've arrived at the top. I want to surround
         myself with people that are way more talented than myself to help push me even farther.
       </p>
       <p>
-        Programming is my hobby but in my free time away from a keyboard I enjoy photography and
-        spending time with my wife and two children.
+        Programming is my hobby but in my free time away from a keyboard I enjoy photography, gaming on my PC
+        and spending time with my wife and two children.
       </p>
     </div>
     <img alt="laptop computer on table" src="~@/assets/images/about.jpg" class="home__image" />
