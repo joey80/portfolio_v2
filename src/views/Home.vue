@@ -3,38 +3,43 @@
     <h1 class="home__message">
       Hello.<br />
       my name is <span class="home--stronger">Joey Leger</span><br />
-      and I'm a front-end engineer.
+      and I'm a full-stack engineer.
     </h1>
     <router-link to="/projects" aria-label="portfolio">
-      <Button class="home__btn"> Check Out My Work &rarr; </Button>
+      <Button class="home__btn">
+        Check Out My Work &rarr;
+      </Button>
     </router-link>
     <div class="home__line" />
     <div class="home__skills">
       <p>
-        I am a front-end engineer by trade who lives just outside of
+        I am a full-stack engineer by trade who lives just outside of
         <span class="home--stronger">Charlotte, North Carolina</span> and I'm passionate about
         technology - not a specific framework or language. In this line of work it's about
         adaptation, and what works best for the project. I'm open to learning any stack if it works.
-        I want to be the best developer I can be. I enjoy creating in my career and after hours. I
-        believe in shipping quality code and working in flow.
+        I want to be the best developer
+      </p>
+      <p>
+        I believe in shipping quality, <em>testable</em> code and working in flow.
       </p>
       <p>
         I love both sides of full-stack development. The front-end scratches my creative itch,
         especially when it comes to UI/UX and building mobile-first experiences. I also enjoy all
         things Javascript and using libraries such as
         <joey-badge>React</joey-badge>, and <joey-badge>Vue</joey-badge>. With the back-end side I
-        enjoy working with <joey-badge>Node</joey-badge>, <joey-badge>Express</joey-badge>,
-        <joey-badge>PHP</joey-badge>, and <joey-badge>MySQL</joey-badge> because this is where all
-        of the functionality is.
+        enjoy working with <joey-badge>Node</joey-badge>, <joey-badge>C#</joey-badge> and <joey-badge>Python</joey-badge>
+        creating API's and working with databases such as <joey-badge>SQL</joey-badge>,
+        <joey-badge>ElasticSearch</joey-badge> and <joey-badge>Redis</joey-badge>
       </p>
     </div>
     <img
+      alt="laptop computer on table"
+      class="home__image"
       :src="
         mobile
           ? require(`@/assets/images/stock__computer-mobile.jpg`)
           : require(`@/assets/images/stock__computer.jpg`)
       "
-      alt="laptop computer on table"
     />
   </section>
 </template>
@@ -75,36 +80,9 @@ export default {
   align-items: flex-end;
   padding-top: 80px;
 
-  &__message {
-    text-align: right;
-    font-size: 1.8em;
-    line-height: 1.5em;
-
-    @include tablet {
-      line-height: 1.4em;
-      font-size: 2.5em;
-    }
-
-    @include desktop {
-      font-size: 3.5em;
-    }
-  }
-
-  &__line {
-    margin-top: 60px;
-    width: 100%;
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 1)
-    );
-
-    @include tablet {
-      margin-top: 100px;
-    }
+  &__arrow {
+    transform: scale(1.5);
+    margin-left: 20px;
   }
 
   &__btn {
@@ -138,17 +116,61 @@ export default {
     }
   }
 
-  &__arrow {
-    transform: scale(1.5);
-    margin-left: 20px;
+  &__image {
+    border-radius: 7px;
+    margin: 60px auto 80px auto;
+    max-height: 200px;
+    max-width: 70%;
+
+    @include tablet {
+      margin: 70px 0 80px 0;
+      max-height: 300px;
+    }
+
+    @include desktop {
+      margin: 100px 0 80px 0;
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+
+  &__line {
+    margin-top: 60px;
+    width: 100%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0.75),
+      rgba(0, 0, 0, 1)
+    );
+
+    @include tablet {
+      margin-top: 100px;
+    }
+  }
+
+  &__message {
+    text-align: right;
+    font-size: 1.8em;
+    line-height: 1.5em;
+
+    @include tablet {
+      line-height: 1.4em;
+      font-size: 2.5em;
+    }
+
+    @include desktop {
+      font-size: 3.5em;
+    }
   }
 
   &__skills {
     margin-top: 30px;
     text-align: left;
     line-height: 2.5;
-    font-size: 0.8em;
-    text-indent: 7em;
+    font-size: 0.9em;
 
     @include tablet {
       margin-top: 80px;
@@ -157,7 +179,8 @@ export default {
 
     @include desktop {
       max-width: 90%;
-      font-size: 1em;
+      font-size: 1.2em;
+      text-indent: 7em;
     }
 
     &--larger {
@@ -176,24 +199,6 @@ export default {
       @include tablet {
         padding: 4px;
       }
-    }
-  }
-
-  &__image {
-    border-radius: 7px;
-    margin: 60px auto 80px auto;
-    max-height: 200px;
-    max-width: 70%;
-
-    @include tablet {
-      margin: 70px 0 80px 0;
-      max-height: 300px;
-    }
-
-    @include desktop {
-      margin: 100px 0 80px 0;
-      max-height: 100%;
-      max-width: 100%;
     }
   }
 

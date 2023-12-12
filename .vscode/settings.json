@@ -1,21 +1,13 @@
 {
   // "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "vetur.format.defaultFormatter.js": "prettier",
-  "vetur.format.defaultFormatterOptions": {
-    "prettier": {
-      // Prettier option here
-      "semi": true
-    }
-  },
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "editor.minimap.enabled": false,
-  "explorer.openEditors.visible": 0,
+  "editor.minimap.enabled": true,
   "files.eol": "\r\n",
-  // "prettier.printWidth": 100,
-  // "prettier.semi": true,
-  // "prettier.singleQuote": true,
-  // "prettier.jsxSingleQuote": true,
+  "prettier.printWidth": 100,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Default Dark+",
   "workbench.colorCustomizations": {

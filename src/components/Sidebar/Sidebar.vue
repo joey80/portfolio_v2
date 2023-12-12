@@ -3,19 +3,24 @@
     <div class="sidebar__links">
       <ul>
         <li>
-          <router-link to="/" aria-label="home"> Home </router-link>
+          <router-link to="/" aria-label="home">
+            Home
+          </router-link>
         </li>
         <li>
-          <router-link to="/projects" aria-label="projects"> Projects </router-link>
+          <router-link to="/projects" aria-label="projects">
+            Projects
+          </router-link>
         </li>
         <li>
-          <router-link to="/about" aria-label="about"> About </router-link>
+          <router-link to="/about" aria-label="about">
+            About
+          </router-link>
         </li>
       </ul>
     </div>
     <div class="sidebar__quote">
-      I'm a creative and passionate full-stack developer that looks forward to taking on new
-      challenges and to
+      I'm a creative and passionate full-stack developer that looks forward to taking on new challenges and to
       <span class="sidebar--stronger">never stop learning new things</span>
     </div>
     <div class="sidebar__social">
@@ -23,22 +28,13 @@
         <li>
           check out my
           <span class="sidebar--stronger">
-            <a href="https://github.com/joey80" aria-label="github" rel="noopener" target="_blank"
-              >GitHub</a
-            >
+            <a href="https://github.com/joey80" aria-label="github" rel="noopener" target="_blank">GitHub</a>
           </span>
         </li>
         <li>
           connect with me on
           <span class="sidebar--stronger">
-            <a
-              href="https://www.linkedin.com/in/joey-leger-363715a5/"
-              aria-label="linkedIn"
-              rel="noopener"
-              target="_blank"
-            >
-              LinkedIn
-            </a>
+            <a href="https://www.linkedin.com/in/joey-leger-363715a5/" aria-label="linkedIn" rel="noopener" target="_blank"> LinkedIn </a>
           </span>
         </li>
       </ul>
@@ -70,6 +66,7 @@
     padding: 10px 0 10px 0;
     background-color: $sidebar-color;
     top: 0;
+    text-align: right;
     left: 0;
     font-family: 'Coustard', serif;
     font-size: 1.4em;
@@ -136,8 +133,8 @@
     border-radius: 50%;
     border: 1px solid #fff;
     background-image: url('~@/assets/images/me.jpg');
-    background-position: bottom;
-    background-size: contain;
+    background-position: center;
+    background-size: cover;
     box-shadow: 0px 30px 18px 0px rgba(0, 0, 0, 0.3);
 
     @include tablet {
