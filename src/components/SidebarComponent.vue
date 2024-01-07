@@ -3,19 +3,13 @@
     <div class="sidebar__links">
       <ul>
         <li>
-          <router-link to="/" aria-label="home">
-            Home
-          </router-link>
+          <router-link to="/" aria-label="home"> Home </router-link>
         </li>
         <li>
-          <router-link to="/projects" aria-label="projects">
-            Projects
-          </router-link>
+          <router-link to="/projects" aria-label="projects"> Projects </router-link>
         </li>
         <li>
-          <router-link to="/about" aria-label="about">
-            About
-          </router-link>
+          <router-link to="/about" aria-label="about"> About </router-link>
         </li>
       </ul>
     </div>

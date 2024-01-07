@@ -5,72 +5,61 @@
       my name is <span class="home--stronger">Joey Leger</span><br />
       and I'm a full-stack engineer.
     </h1>
-    <router-link to="/projects" aria-label="portfolio">
-      <Button class="home__btn">
-        Check Out My Work &rarr;
-      </Button>
+    <router-link to="/projects" custom v-slot="{ navigate }">
+      <Button @click="navigate" class="home__btn" role="link">Check Out My Work &rarr;</Button>
     </router-link>
     <div class="home__line" />
     <div class="home__skills">
       <p>
         I am a full-stack engineer by trade who lives just outside of
-        <span class="home--stronger">Charlotte, North Carolina</span> and I'm passionate about
-        technology - not a specific framework or language. In this line of work it's about
-        adaptation, and what works best for the project. I'm open to learning any stack if it works.
-        I want to be the best developer
+        <span class="home--stronger">Charlotte, North Carolina</span> and I'm passionate about technology - not a specific framework or language. In this line of work it's about
+        adaptation, and what works best for the project. I'm open to learning any stack if it works. I want to be the best developer
       </p>
+      <p>I believe in shipping quality, <em>testable</em> code and working in flow.</p>
       <p>
-        I believe in shipping quality, <em>testable</em> code and working in flow.
-      </p>
-      <p>
-        I love both sides of full-stack development. The front-end scratches my creative itch,
-        especially when it comes to UI/UX and building mobile-first experiences. I also enjoy all
-        things Javascript and using libraries such as
-        <joey-badge>React</joey-badge>, and <joey-badge>Vue</joey-badge>. With the back-end side I
-        enjoy working with <joey-badge>Node</joey-badge>, <joey-badge>C#</joey-badge> and <joey-badge>Python</joey-badge>
-        creating API's and working with databases such as <joey-badge>SQL</joey-badge>,
-        <joey-badge>ElasticSearch</joey-badge> and <joey-badge>Redis</joey-badge>
+        I love both sides of full-stack development. The front-end scratches my creative itch, especially when it comes to UI/UX and building mobile-first experiences. I also enjoy
+        all things Javascript and using libraries such as
+        <Badge>React</Badge>, and <Badge>Vue</Badge>. With the back-end side I enjoy working with <Badge>Node</Badge>, <Badge>C#</Badge> and <Badge>Python</Badge> creating API's
+        and working with databases such as <Badge>SQL</Badge>, <Badge>ElasticSearch</Badge> and
+        <Badge>Redis</Badge>
       </p>
     </div>
     <img
       alt="laptop computer on table"
       class="home__image"
-      :src="
-        mobile
-          ? require(`@/assets/images/stock__computer-mobile.jpg`)
-          : require(`@/assets/images/stock__computer.jpg`)
-      "
+      :src="mobile ? require(`@/assets/images/stock__computer-mobile.jpg`) : require(`@/assets/images/stock__computer.jpg`)"
     />
   </section>
 </template>
 
-<script>
-import Badge from '../components/Badge/Badge.vue'
-import Button from '../components/Button/index.vue'
-import { isMobile } from '../utils/index'
+<script lang="ts">
+import { defineComponent } from 'vue';
+import Badge from '@/components/BadgeComponent.vue';
+import Button from '@/components/ButtonComponent.vue';
+import { isMobile } from '../utils/index';
 
-export default {
+export default defineComponent({
   components: {
-    joeyBadge: Badge,
+    Badge,
     Button,
   },
   data() {
     return {
       mobile: false,
-    }
+    };
   },
   created() {
-    window.addEventListener('resize', this.handleIsMobile)
+    window.addEventListener('resize', this.handleIsMobile);
   },
-  destroyed() {
-    window.removeEventListener('resize', this.handleIsMobile)
+  unmounted() {
+    window.removeEventListener('resize', this.handleIsMobile);
   },
   methods: {
     handleIsMobile() {
-      this.mobile = isMobile()
+      this.mobile = isMobile();
     },
   },
-}
+});
 </script>
 
 <style lang="scss">
@@ -139,12 +128,7 @@ export default {
     width: 100%;
     border: 0;
     height: 1px;
-    background-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 1)
-    );
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
 
     @include tablet {
       margin-top: 100px;
