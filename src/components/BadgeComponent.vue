@@ -4,15 +4,14 @@
   </span>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from 'vue';
+
+export default defineComponent({
   props: {
-    type: {
-      type: String,
-      default: 'project',
-    },
+    type: String,
   },
-}
+});
 </script>
 
 <style lang="scss">
@@ -28,8 +27,8 @@ export default {
   }
 
   &--project {
-    display: inline;
-    margin: 5px;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
   }
 }
 </style>
