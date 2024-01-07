@@ -1,8 +1,16 @@
-/* eslint-disable max-len */
-export const Data = [
+const data = [
+  {
+    title: 'Cerees',
+    siteURL: 'https://cerees.joeyui.com',
+    gitURL: 'https://github.com/joey80/cerees',
+    imageURL: 'cerees__image',
+    description:
+      'Cerees is an app that allows you to search for any tv show and to be able to see all of the ratings for each episode for all of its seasons. This is a pretty nice way of seeing if the show is worth investing your time in and also at what point in time did the quality in the episodes possibly start to tank. On top of episode ratings it also shows you which streaming platforms you can watch the show on.',
+    stack: ['React', 'Next.js', 'Typescript', 'Redis', 'React Testing Library', 'Sass', 'Netlifty'],
+  },
   {
     title: 'RealEstate',
-    siteURL: 'https://joeyui-realestate.netlify.com/',
+    siteURL: 'https://realestate.joeyui.com',
     gitURL: 'https://github.com/joey80/realestate',
     imageURL: 'realestate__image',
     description:
@@ -20,7 +28,7 @@ export const Data = [
   },
   {
     title: 'Creative Wonder',
-    siteURL: 'https://joeyui-creativewonder.netlify.com/',
+    siteURL: 'https://creativewonder.joeyui.com',
     gitURL: 'https://github.com/joey80/creative_wonder_frontend_v2',
     imageURL: 'creative__image',
     description:
@@ -37,21 +45,14 @@ export const Data = [
     stack: ['PostCSS', 'Bootstrap', 'AJAX', 'Gulp', 'Webpack', 'PHP', 'MySQL', 'auth0', 'Heroku'],
   },
   {
-    title: 'CSV Importer',
-    siteURL: null,
-    gitURL: 'https://github.com/joey80/csv_import',
-    imageURL: 'csv__image',
-    description:
-      'This was from a project that I worked on that required several csv files to be processed and have their contents saved to a database nightly via a cron job. I used PHP 7 for this as it was part of an existing LAMP stack that used a CMS.',
-    stack: ['PHP', 'MySQL'],
-  },
-  {
     title: 'Joey UI',
     siteURL: null,
     gitURL: 'https://github.com/joey80/portfolio_v2',
     imageURL: 'joeyui__image',
     description:
       "This is the site that you're on right now. This is just a place where I can showcase my work and I'm looking forward to adding more to it in the future. Let me know what you think!",
-    stack: ['Vue.js', 'Webpack', 'Babel', 'Less', 'Express', 'Netlify'],
+    stack: ['Vue 3', 'Typescript', 'Webpack', 'Babel', 'Sass', 'Netlify'],
   },
 ];
+
+export { data };

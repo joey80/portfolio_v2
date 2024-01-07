@@ -2,9 +2,8 @@
   <div class="projects">
     <h1>Projects</h1>
     <div class="projects__line" />
-
-    <template v-for="item in items">
-      <div :key="item.title" class="projects__container">
+    <template v-for="item in items" :key="item.title">
+      <div class="projects__container">
         <div class="projects__container__left">
           <div class="projects__container__title">
             {{ item.title }}
@@ -17,10 +16,10 @@
           <div class="projects__container__stack">
             <span class="projects--stronger">STACK</span>
             <div class="projects__container__line" />
-            <template v-for="elm in item.stack">
-              <joey-badge :key="elm" type="project">
+            <template v-for="elm in item.stack" :key="elm">
+              <Badge type="project">
                 {{ elm }}
-              </joey-badge>
+              </Badge>
             </template>
           </div>
         </div>
@@ -30,20 +29,21 @@
   </div>
 </template>
 
-<script>
-import Badge from '../components/Badge/Badge.vue'
-import { Data } from '../assets/data/projects.data'
+<script lang="ts">
+import { defineComponent } from 'vue';
+import Badge from '@/components/BadgeComponent.vue';
+import { data } from '@/assets/projects.data';
 
-export default {
+export default defineComponent({
   components: {
-    joeyBadge: Badge,
+    Badge,
   },
   data() {
     return {
-      items: Data,
-    }
+      items: data,
+    };
   },
-}
+});
 </script>
 
 <style lang="scss">
@@ -59,20 +59,10 @@ export default {
     width: 100%;
     border: 0;
     height: 1px;
-    background-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 0.75),
-      rgba(0, 0, 0, 1)
-    );
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
 
     @include tablet {
-      background-image: linear-gradient(
-        to right,
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.75),
-        rgba(0, 0, 0, 1)
-      );
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 1));
     }
   }
 
@@ -211,6 +201,7 @@ export default {
       transition: all 0.3s ease-in-out 0s;
     }
   }
+
   a:visited {
     color: $primary-color;
   }
@@ -265,18 +256,6 @@ export default {
   }
 }
 
-.csv {
-  background-color: fade-out(#d91122, 0.1);
-  color: #fff;
-
-  &__image {
-    background-image: url('~@/assets/images/csv.jpg');
-    background-size: cover;
-    background-position: top;
-    background-position-x: 20px;
-  }
-}
-
 .joeyui {
   &__image {
     background-image: url('~@/assets/images/joeyui.png');
@@ -292,6 +271,15 @@ export default {
     background-size: cover;
     background-position: top;
     background-position-x: -80px;
+  }
+}
+
+.cerees {
+  &__image {
+    background-image: url('~@/assets/images/cerees.png');
+    background-size: cover;
+    background-position: top;
+    background-position-x: -40px;
   }
 }
 </style>

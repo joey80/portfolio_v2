@@ -3,33 +3,13 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ['plugin:vue/recommended', '@vue/airbnb', 'plugin:vuejs-accessibility/recommended'],
+  extends: ['plugin:vue/vue3-essential', 'eslint:recommended', '@vue/typescript/recommended', 'plugin:prettier/recommended'],
   parserOptions: {
-    parser: 'babel-eslint',
+    ecmaVersion: 2020,
   },
-  plugins: ['vuejs-accessibility'],
   rules: {
-    'arrow-parens': ['error', 'as-needed'],
-    'comma-dangle': 'off',
-    'import/prefer-default-export': 'off',
-    'max-len': ['error', { code: 150 }],
-    'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'no-param-reassign': ['error', { props: false }],
-    'no-underscore-dangle': 'off',
-    'operator-linebreak': 'off',
-    semi: 'off',
-    'vue/max-attributes-per-line': 'off',
-    'vue/html-self-closing': [
-      'error',
-      {
-        html: {
-          void: 'always',
-          normal: 'always',
-          component: 'always',
-        },
-      },
-    ],
+    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
   },
   overrides: [
     {
@@ -39,4 +19,4 @@ module.exports = {
       },
     },
   ],
-}
+};

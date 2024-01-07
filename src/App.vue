@@ -1,20 +1,22 @@
 <template>
   <section class="app__container">
-    <joey-sidebar />
-    <joey-content-container />
+    <Sidebar />
+    <ContentContainer />
   </section>
 </template>
 
-<script>
-import ContentContainer from './components/ContentContainer/ContentContainer.vue'
-import Sidebar from './components/Sidebar/Sidebar.vue'
+<script lang="ts">
+import { defineComponent } from 'vue';
 
-export default {
+import ContentContainer from '@/components/ContentContainer.vue';
+import Sidebar from '@/components/SidebarComponent.vue';
+
+export default defineComponent({
   components: {
-    joeyContentContainer: ContentContainer,
-    joeySidebar: Sidebar,
+    ContentContainer,
+    Sidebar,
   },
-}
+});
 </script>
 
 <style lang="scss">
