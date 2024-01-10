@@ -1,13 +1,8 @@
 {
   "name": "portfolio_v2",
   "description": "Joeyui.com Personal Portfolio For Joey Leger",
-  "version": "0.0.0-development",
+  "version": "3.0.1",
   "private": true,
-  "release": {
-    "branches": [
-      "release"
-    ]
-  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -15,6 +10,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@gtm-support/vue-gtm": "^2.2.0",
     "core-js": "^3.8.3",
     "vue": "^3.2.13",
     "vue-router": "^4.0.3"
